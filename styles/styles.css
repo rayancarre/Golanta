@@ -1,0 +1,89 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0a0a0a;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Organise les éléments en colonne */
+    height: 100%;
+}
+
+.form-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.form-container:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    color: #ff1030;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+input[type="text"]:hover, input[type="password"]:hover {
+    background-color: #ff1030;
+    color: #fff;
+}
+
+input[type="submit"] {
+    background-color: #ff1030;
+    color: white;
+    cursor: pointer;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff1030;
+    transform: scale(1.1);
+}
+
+.star {
+    width: 2px;
+    height: 2px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 0 2px #fff, 0 0 5px #fff;
+    position: absolute;
+    bottom: 100%;
+    animation: moveStar 50s linear infinite;
+}
+
+@keyframes moveStar {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(1000px);
+    }
+}

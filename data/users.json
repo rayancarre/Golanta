@@ -1,0 +1,36 @@
+{
+ "users": [
+  {
+   "username": "user1",
+   "password": "mdp1"
+  },
+  {
+   "username": "user2",
+   "password": "mdp2"
+  },
+  {
+   "username": "user3",
+   "password": "mdp3"
+  },
+  {
+   "username": "carreworld@icloud.com",
+   "password": "$2a$14$go1ZcWtsXP5eIG3dbrDcYOT5YvlDFjt7d1Av2CGwRwqoZ5NxaYXKK"
+  },
+  {
+   "username": "user4",
+   "password": "$2a$14$/DPF0DbqRYoOOBYnIgHgg.TZED.BVW4MDavakpbI1/vPm818IoQEO"
+  },
+  {
+   "username": "jdd",
+   "password": "$2a$14$kKdxvkqBh/GC6ZQB0lYjLevJRlBDif95wOtU0KSwZUNR3RQE5fBVC"
+  },
+  {
+   "username": "kher123",
+   "password": "$2a$14$7umiGaElzD7vSvvZYGvyku.mWHr3kP7ichDL3iXdw7VLxA3FCb1f."
+  },
+  {
+   "username": "kher",
+   "password": "$2a$14$1Vjx1vMSYC2yec4vCXDEQOiWyO27PSqN.7oR/LzfDifsTWRLwIeCK"
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{{define "index"}}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="static/index.css">
+    <!-- Métadonnées et liens -->
+</head>
+<body class="body-class">
+    <header class="site-header">
+    <div class="header-title">
+        <i class="fa-solid fa-pen-fancy fa-2xl title-icon"></i>
+        <h1 class="main-title">Ymmersions</h1>
+    </div>
+    <nav class="header-nav">
+        <ul class="category-list">
+            <li class="category-item"><a href="http://localhost:8084/category?category=Minecraft" class="category-link">Minecraft</a></li>
+            <li class="category-item"><a href="http://localhost:8084/category?category=Geometry-Dash" class="category-link">Geometry Dash</a></li>
+            <li class="category-item"><a href="http://localhost:8084/category?category=GTA" class="category-link">GTA</a></li>
+        </ul>
+        <div class="search-bar">
+            <form action="/search" method="get" class="search-form">
+                <input type="search" name="title" placeholder="Rechercher" class="search-input" />
+                <button type="submit" class="search-button">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                </button>
+            </form>
+        </div>
+    </nav>
+</header>
+
+    <main class="main-content">
+        <section class="articles">
+            <article class="article">
+                <img src="../static/img/Img.png" alt="Description de l'image" class="article-image">
+                <div class="article-text">
+                    <h2 class="article-title">[Minecraft] ansdandojand</h2>
+                    <div class="article-info">
+                        <span class="author">lasalle</span> - 
+                        <time datetime="2022" class="publish-date">2022</time>
+                    </div>
+                </div>
+            </article>
+            <!-- Répétez la structure pour d'autres articles -->
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-content">
+            <h4 class="footer-title">Ymmersions</h4>
+            <p class="rights-text">© 2024 Ymmersions. Tous droits réservés.</p>
+        </div>
+        <div class="footer-links">
+            <a href="#" class="footer-link">Page d'Explications</a>
+            <p class="team-names">Dante / Bellais / Carre / Sanchez</p>
+        </div>
+    </footer>
+</body>
+</html>
+{{end}}
